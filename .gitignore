@@ -1,0 +1,53 @@
+# 忽略所有编译输出
+bin/
+build/
+out/
+target/
+
+# 忽略所有依赖库
+*.jar
+*.war
+*.ear
+
+# 忽略所有 IDE 配置
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
+*.log
+
+# 忽略环境配置文件
+.env
+
+# 忽略临时文件
+*.tmp
+*.swp
+
+# 忽略 Gradle 和 Maven 缓存
+.gradle/
+.mvn/
+
+# 忽略测试输出
+/test-output/
+
+# 忽略.gitignore
+.gitignore
+
+# 保留特定文件
+!src/**     # 保留 src 目录下所有文件
+!pom.xml    # 保留 Maven 的配置文件
+!build.gradle    # 保留 Gradle 的配置文件
+!settings.gradle # 保留 Gradle 的配置文件
+!README.md  # 保留项目说明文件

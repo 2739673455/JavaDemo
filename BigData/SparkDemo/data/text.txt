@@ -1,0 +1,5 @@
+{"name":"world","age":100}
+{"name":"hive hbase","age":101}
+{"name":"flink kafka","age":120}
+{"name":"hive hbase","age":103}
+{"name":"flink kafka","age":140}
